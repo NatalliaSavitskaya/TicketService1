@@ -15,7 +15,7 @@ class TicketService
 
         char[] idTicket = {'1','1','1','1'};
         Ticket fullTicket = new Ticket(idTicket, concertHall, eventCode, unixTimeStamp,
-                true, 'A', 55.95F);
+                true, 'A', 55.95F, 12.35);
         System.out.println("The info about the full ticket is:");
         fullTicket.printTicket();
     }
